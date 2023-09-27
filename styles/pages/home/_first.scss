@@ -1,0 +1,178 @@
+.first__section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.first__container {
+    padding-top: 25px;
+    width: 1090px; 
+    margin: 0 auto;
+    .first__row {
+        display: flex;
+        justify-content: space-between;
+        .first__title h3 {
+            padding-top: 120px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 60px; 
+        }
+        .first__title p {
+            padding-top: 18px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+        .first__button {
+            display: flex;
+            gap: 30px;
+        }
+        .first__button button {
+            margin-top: 45px;
+            width: 175px;
+            height: 53px;
+            border: none;
+            border-radius: 4px;
+            background-color: $prime-color;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .first__button button:hover {
+            background-color: #fff;
+            border: 1px solid #BCD0E5;
+            color: $text-color;
+            transition: 0.5s ease;
+        }
+        .first__watch {
+            display: flex;
+            gap: 8.5px;
+        }
+        .first__watch img{
+            margin-top: 61.5px;
+            width: 20px;
+            height: 17px;
+        }
+        .first__watch a {
+            padding-top: 60px;
+            color: $prime-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration-line: underline;
+        }
+  }
+}
+
+.fifth__container2 {
+    display: none;
+}
+.first__button {
+    display: none;
+}
+.first__banner-small {
+    display: none;
+}
+.first__title2 h3 {
+    display: none;
+} 
+.first__title2 p {
+    display: none;
+}
+
+
+@media screen and (max-width: 411px) {
+    .first__section {
+        display: none;
+    }
+    .first__container {
+        display: none;
+    }
+    .first__section2 {
+        max-width: 411px;
+        height: 667px;
+        margin: 0 auto;
+        display: block;
+    }
+    .first__container2 {
+        max-width: 411px;
+        height: 667px;
+        margin: 0 auto;
+        display: block;
+        .first__banner-small {
+            display: block;
+            padding-left: 37px;
+            padding-top: 30px;
+        }
+        .first__title2 {
+            display: block;
+        }
+        .first__title2 h3 {
+            display: block;
+            padding-top: 10px;
+            color: $text-color;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 60px; 
+        } 
+        .first__title2 p {
+            display: block;
+            padding-top: 16px;
+            color: $text-color;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+        }
+        .first__button {
+            display: flex;
+            gap: 28px;
+        }
+        .first__button button {
+            margin-top: 22px;
+            margin-left: 41px;
+            width: 142px;
+            height: 53px;
+            border: none;
+            border-radius: 4px;
+            background-color: $prime-color;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;  
+        }
+        .first__button button:hover {
+            background-color: #fff;
+            border: 1px solid #BCD0E5;
+            color: $text-color;
+            transition: 0.5s ease;
+        }
+        .first__watch {
+            display: flex;
+            gap: 9px;
+        }
+        .first__watch img{
+            margin-top: 40px;
+            width: 20px;
+            height: 17px;
+        }
+        .first__watch a {
+            padding-top: 37px;
+            color: $prime-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration-line: underline;
+        }
+    }
+}

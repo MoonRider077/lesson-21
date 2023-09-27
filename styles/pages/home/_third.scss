@@ -1,0 +1,435 @@
+.third__section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.third__container1 {
+    width: 1110px;
+    height: 474px;
+    margin: 0 auto;
+    padding-top: 220px;
+    .third__row {
+        display: flex;
+        gap: 84px;
+        .third__title h2 {
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .third__title h3 {
+            padding-top: 8px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .third__title h4 {
+            padding-top: 23px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px; 
+        }
+        .third__title h5 {
+            padding-top: 30px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .third__title h6 {
+            padding-top: 12px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+        .third__title h1 {
+            padding-top: 25px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .third__title p {
+            padding-top: 12px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
+.third__container2 {
+    width: 1110px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 330px;
+    .third__row2 {
+        display: flex;
+        gap: 94px;
+    }
+    .third__title2 {
+        padding-top: 35px;
+    }
+    .third__title2 h2 {
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .third__title2 h3 {
+        padding-top: 8px;
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .third__title2 h4 {
+        padding-top: 23px;
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+    .third__descr1 {
+        display: flex;
+        gap: 30px;
+        padding-top: 30px;
+    }
+    .third__descr1 p {
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+    .third__descr2 {
+        display: flex;
+        gap: 30px;
+        padding-top: 30px;
+    }
+    .third__descr2 p {
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+    .third__descr3 {
+        display: flex;
+        gap: 30px;
+        padding-top: 30px;
+    }
+    .third__descr3 p {
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+}
+
+.third__container3 {
+    width: 1110px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 500px;
+    .third__row3 {
+        display: flex;
+        gap: 94px;
+        .third__title3 h2 {
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .third__title3 h3 {
+            padding-top: 8px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .third__title3 h4 {
+            padding-top: 23px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px; 
+        }
+        .third__title3 h5 {
+            padding-top: 30px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .third__title3 h6 {
+            padding-top: 12px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+        .third__title3 h1 {
+            padding-top: 25px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+        }
+        .third__title3 p {
+            padding-top: 12px;
+            color: $text-color;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .third__section {
+        max-width: 411px;
+        max-height: 1610px;
+        margin: 0 auto;
+    }
+    .third__container1 {
+        position: relative;
+        width: 411px;
+        max-height: 1610px;
+        margin: 0 auto;
+        .third__row {
+            display: block;
+            .third__image img {
+                position: absolute;
+                left: 31px;
+                top: 120px;
+                width: 349px;
+                height: 306.1px;
+            }
+            .third__title h2 {
+                margin-top: 250px;
+                padding-left: 41px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .third__title h3 {
+                padding-left: 41px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 32px;
+                font-weight: 700;
+            }
+            .third__title h4 {
+                padding-left: 41px;
+                width: 334px;
+                height: 104px;
+                padding-top: 23px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+            }
+            .third__title h5 {
+                margin-top: 32px;
+                padding-left: 41px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+            }
+            .third__title h6 {
+                width: 327px;
+                height: 78px;
+                padding-left: 41px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .third__title h1 {
+                margin-top: 32px;
+                padding-left: 41px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+            }
+            .third__title p {
+                width: 334px;
+                height: 78px;
+                padding-left: 41px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    }
+    .third__container2 {
+        position: relative;
+        width: 411px;
+        max-height: 1610px;
+        margin: 0 auto;
+        .third__row2 {
+            display: block;
+            .third__image2 img {
+                margin-top: 290px;
+                padding-left: 31px;
+                width: 350px;
+                height: 319.521px;
+            }
+            .third__title2 {
+                padding-left: 36px;
+                padding-top: 40px;
+            }
+            .third__title2 h2 {
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .third__title2 h3 {
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 32px;
+                font-weight: 700;
+            }
+            .third__title2 h4 {
+                padding-top: 23px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+            }
+            .third__descr1 {
+                display: flex;
+                gap: 30px;
+                padding-top: 30px;
+            }
+            .third__descr1 p {
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+            }
+            .third__descr2 {
+                display: flex;
+                gap: 30px;
+                padding-top: 30px;
+            }
+            .third__descr2 p {
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+            }
+            .third__descr3 {
+                display: flex;
+                gap: 30px;
+                padding-top: 30px;
+            }
+            .third__descr3 p {
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+            }
+        } 
+    }
+    .third__container3 {
+        margin-top: 700px;
+        position: relative;
+        width: 411px;
+        max-height: 1610px;
+        .third__row3 {
+            margin-top: 270px;
+            display: block;
+            padding-left: 36px;
+            .third__image3 img {
+                position: absolute;
+                top: 430px;
+                left: 31px;
+                width: 350px;
+                height: 291.459px;
+            }
+            .third__title3 h2 {
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .third__title3 h3 {
+                padding-top: 8px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 32px;
+                font-weight: 700;
+            }
+            .third__title3 h4 {
+                padding-top: 23px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+            }
+            .third__title3 h5 {
+                padding-top: 30px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+            }
+            .third__title3 h6 {
+                padding-top: 12px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .third__title3 h1 {
+                padding-top: 25px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+            }
+            .third__title3 p {
+                padding-top: 12px;
+                color: $text-color;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    }
+}

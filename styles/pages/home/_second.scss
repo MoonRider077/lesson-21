@@ -1,0 +1,244 @@
+.second__section {
+    max-width: 1400px;
+    margin: 0 auto;
+    .p {
+        padding-top: 114px;
+        color: $text-color;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+.second__container {
+    padding-top: 58px;
+    width: 1111px;
+    height: 390px;
+    margin: 0 auto;
+    position: relative;
+    .second__button {
+        padding-top: 40px;
+        padding-left: 462px;
+    }
+    .second__button button {
+        width: 175px;
+        height: 53px;
+        border: none;
+        background-color: $prime-color;
+        border-radius: 4px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .second__button button:hover {
+        background-color: #fff;
+        border: 1px solid #BCD0E5;
+        color: $text-color;
+        transition: 0.5s ease;
+    }
+    .background {
+        position: absolute;
+        z-index: -1;
+        left: -150px;
+    }
+}
+.card__row {
+    display: flex;
+    gap: 45px;
+    .card {
+        width: 240px;
+        height: 204px;
+        border: none;
+        .box1 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 19px;
+            background-color: $prime-color;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .box1 img {
+            padding-top: 16px;
+            padding-left: 19px;
+        }
+        .box2 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 19px;
+            background-color: #4D8DFF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .box2 img {
+            padding-top: 17px;
+            padding-left: 16px;
+        }
+        .box3 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 19px;
+            background-color: #740A76;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .box3 img {
+            padding-top: 17px;
+            padding-left: 17px;
+        }
+        .box4 {
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 19px;
+            background-color: #F03E3D;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .box4 img {
+            padding-top: 17px;
+            padding-left: 18px;
+        }
+    }
+    .card h3 {
+        padding-top: 30px;
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .card p {
+        padding-top: 13px;
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;  
+    }
+}
+
+.second__section2 {
+    display: none;
+}
+.second__container2 {
+    display: none;
+}
+
+@media screen and (max-width: 411px) {
+.second__section2 {
+    max-width: 411px;
+    max-height: 1095;
+    margin: 0 auto;
+    display: block;
+    }
+.second__container2 {
+    position: relative;
+    margin: 0 auto;
+    width: 409px;
+    max-height: 1095;
+    display: block; 
+    h2 {
+        margin-top: 116px;
+        text-align: center;
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .card1 {
+        margin-left: 181px;
+        margin-top: 50px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 19px;
+        background-color: $prime-color; 
+    }
+    .card2 {
+        margin-top: 37px;
+        margin-left: 181px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 19px;
+        background-color: #4D8DFF;  
+    }
+    .card3 {
+        margin-top: 37px;
+        margin-left: 181px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 19px;
+        background-color: #740A76;
+    }
+    .card4 {
+        margin-top: 37px;
+        margin-left: 181px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 19px;
+        background-color: #F03E3D;   
+    }
+    h3 {
+        padding-top: 24px;
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+    }
+    p {
+        padding-top: 8px;
+        color: #22343D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+    .card2 img, .card3 img, .card4 img {
+        padding-top: 17px;
+        padding-left: 17px;
+    }
+    .card1 {
+        padding-top: 16px;
+        padding-left: 19px;
+    }
+    .second__button2 {
+        margin-top: 37px;
+        margin-left: 118px;
+    }
+    .second__button2 button {
+        width: 175px;
+        height: 53px;
+        border: none;
+        background-color: $prime-color;
+        border-radius: 4px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .second__button2 button:hover {
+        background-color: #fff;
+        border: 1px solid #BCD0E5;
+        color: $text-color;
+        transition: 0.5s ease;
+    }
+    .second__bg {
+        position: absolute;
+        z-index: -1;
+        bottom: -42px;
+    }
+}
+    .second__section {
+        display: none;
+    }
+    .second__container {
+        display: none;
+    }
+}
+
